@@ -62,7 +62,7 @@ function HabitItem({ habit }: HabitItemProps) {
         </Button>
       </div>
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 overflow-auto">
         {visiblesDates.map((date) => {
           const isCompleted = habit.completions.some((completionDate) =>
             isSameDay(completionDate, date),
