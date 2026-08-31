@@ -5,7 +5,7 @@ import HabitProvider from "./context/HabitProvider";
 
 function App() {
   return (
-    <div className="max-w-2xl mx-auto flex flex-col gap-4 p-4">
+    <div className="max-w-2xl mx-auto flex flex-col gap-4 p-4 mt-5">
       <HabitProvider>
         <Header />
         <HabitForm />
