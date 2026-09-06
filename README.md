@@ -28,10 +28,10 @@ A minimal yet powerful habit tracking app that helps you build consistency throu
 src/
 ├── main.tsx                    # App entry point
 ├── App.tsx                     # Root component — composes Header, HabitForm, HabitList
-├── index.css                   # Global styles (Tailwind CSS 4 + dark theme)
+├── index.css                   # Global styles
 ├── component/
 │   ├── Button.tsx              # Reusable button with variant support
-│   ├── header.tsx              # App title, daily progress, and week navigation
+│   ├── Header.tsx              # App title, daily progress, and week navigation
 │   ├── HabitForm.tsx           # Input form for adding new habits
 │   └── HabitList.tsx           # Renders all habits with per-day toggle buttons
 └── context/
