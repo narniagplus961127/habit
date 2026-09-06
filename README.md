@@ -28,10 +28,10 @@ A minimal yet powerful habit tracking app that helps you build consistency throu
 src/
 ├── main.tsx                    # App entry point
 ├── App.tsx                     # Root component — composes Header, HabitForm, HabitList
-├── index.css                   # Global styles
+├── index.css                   # Global styles (Tailwind CSS 4 + dark theme)
 ├── component/
 │   ├── Button.tsx              # Reusable button with variant support
-│   ├── Header.tsx              # App title, daily progress, and week navigation
+│   ├── header.tsx              # App title, daily progress, and week navigation
 │   ├── HabitForm.tsx           # Input form for adding new habits
 │   └── HabitList.tsx           # Renders all habits with per-day toggle buttons
 └── context/
@@ -69,15 +69,4 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ```bash
 npm run build
-npm run preview   # Preview the production build locally
 ```
-
-### Lint
-
-```bash
-npm run lint
-```
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
